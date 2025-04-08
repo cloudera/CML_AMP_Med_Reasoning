@@ -1,0 +1,20 @@
+name: Med_Reasoning_GRPO_RL_Quickstart
+
+entries:
+  - title: Med_Reasoning_GRPO_RL_Quickstart
+    label: GRPO
+    short_description: |
+        A starter notebook that demonstrates how to use GRPO on Cloudera AI.
+    long_description: |
+        A starter notebook that demonstrates how to build your own medical reasoning model by using Unsloth and other fine tuning libraries to fine tune an LLM for reasoning using the GRPO RL algorithm in Cloudera AI workbench.
+    tags:
+      - LLM
+      - RL
+      - Reasoning
+      - CoT
+      - GRPO
+    git_url: 'https://github.com/kaushikreddy/Med_Reasoning_AMP.git'
+    is_prototype: true
+
+
+ 

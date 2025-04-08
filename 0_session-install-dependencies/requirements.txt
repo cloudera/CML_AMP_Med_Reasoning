@@ -1,0 +1,26 @@
+# Core dependencies
+torch
+torchvision
+torchaudio
+
+# Specific versions
+vllm
+pillow>=9.5.0
+
+# ML and evaluation packages
+rouge_score
+bert_score
+datasets
+evaluate
+scikit-learn
+sentence_transformers
+sacremoses
+diffusers
+
+
+# Install specific transformers version first
+transformers>=4.46.1,!=4.47.0
+
+# Install unsloth after transformers
+unsloth==2025.2.4
+# TRL from GitHub - specify in pip command: pip install -r requirements.txt && pip install git+https://github.com/huggingface/trl.git@e95f9fb74a3c3647b86f251b7e230ec51c64b72b

@@ -1,0 +1,5 @@
+.*
+!.gitignore
+*.ipynb_checkpoints/
+/assets/
+/1_job-run-python-job/

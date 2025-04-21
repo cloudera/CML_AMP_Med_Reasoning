@@ -37,9 +37,8 @@ Key Features
 
 -   Support for multiple base models:
     -   Llama 3.1-8B-Instruct (default)
-    -   Qwen2.5
-    -   Phi-4
-    -   Gemma 3
+    -   Qwen2.5, Phi-4, Gemma 3 and more
+    -   GRPO can be used with various base models, but it’s generally recommended to use models with 1.5 billion or more parameters for optimal reasoning performance
 
 ### Advanced Fine-Tuning Technique
 
@@ -62,7 +61,7 @@ Getting Started
 
 ### Prerequisites
 
--   Python 3.10+
+-   Python 3.10, 3.11, 3.12
 -   GPU with minimum 5GB VRAM (for models ≤1.5B parameters)
 -   Recommended runtime: 4vCPU, 16GB RAM, 1 GPU 
 
@@ -121,13 +120,13 @@ To switch models, update this line in the notebook:
 
 ```
 model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct" 
-# Swap with another supported base model 
+# Swap with another base model 
 # model_name = "Qwen/Qwen2.5-7B" 
 # model_name = "microsoft/Phi-4" 
 # model_name = "google/gemma-3-1b-it"
 ```
 
-All training and evaluation logic works across supported architectures with minimal changes.
+All training and evaluation logic works across supported architectures with minimal changes
 
 ### Swap in New Datasets Easily
 
@@ -139,7 +138,7 @@ dataset = load_dataset('your/medical/dataset')
 # dataset = load_dataset('your/specific/dataset')
 ```
 
-Make sure the new dataset provides prompt--response pairs or can be adapted using preprocessing (examples provided in the notebook).
+Make sure the new dataset provides prompt--response pairs or can be adapted using preprocessing (examples provided in the notebook)
 
 ### Custom Reward Functions
 
@@ -180,9 +179,9 @@ Performance Optimization
 Recommended Next Steps
 ----------------------
 
--   Experiment with different reward function designs. The notebook contains examples with semantic correctness, perplexity and tag presence.
--   Test model performance across various medical reasoning scenarios.
--   Try custom base models and new datasets
+-   Experiment with different reward function designs. The notebook contains examples with semantic correctness, perplexity and tag presence
+-   Test model performance across various medical reasoning scenarios
+-   Try different base models and datasets
 
 * * * * *
 

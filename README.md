@@ -61,9 +61,10 @@ Getting Started
 
 ### Prerequisites
 
--   Python 3.10, 3.11, 3.12
--   GPU with minimum 5GB VRAM (for models ≤1.5B parameters)
--   Recommended runtime: 4vCPU, 16GB RAM, 1 GPU 
+-   Python 3.10, 3.11, 3.12 are compatible
+-   GPU with minimum 5GB VRAM (for models ≤1.5B parameters). Recommended runtime: 4vCPU, 16GB RAM, 1 GPU 
+-   Note the above runtimes with a GPU are required if you trigger full GRPO training, as GPU is needed for GRPO training
+-   For a notebook walkthru without triggering the GRPO training run, the GPU requirement can be dropped and a 1vCPU & 4GB RAM is sufficient
 
 ### Project Setup
 

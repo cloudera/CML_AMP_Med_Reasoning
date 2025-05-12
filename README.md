@@ -61,7 +61,7 @@ Getting Started
 
 ### Prerequisites
 
--   Python 3.10, 3.11, 3.12 are compatible. Both the AMP deployment and session need to run the same python version
+-   Python 3.10, 3.11, 3.12 are compatible. Ensure the AMP deployment & session run the same python version
 -   GPU with min 5GB VRAM (for models ≤1.5B parameters). Recommended runtime: 4vCPU, 16GB RAM, 1 GPU 
 -   Runtimes with a GPU are required if you trigger full GRPO training, as GPU is needed for GRPO training
 -   For a notebook walkthru without triggering the GRPO training run, the GPU requirement can be dropped and a 1vCPU & 4GB RAM is sufficient
